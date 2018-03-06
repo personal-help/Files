@@ -24,6 +24,7 @@
     text-align: center;
 }
 
+/*PHONE*/
 .row{ clear: both; }
 
 .cont .cols.col-1,
@@ -39,8 +40,25 @@
 .cont .cols.col-11,
 .cont .cols.col-12 {width: 100%; display: block;}
 
+/*TABLET*/
+@media screen and (min-width: 600px){
+    
+.cont .cols.col-1,
+.cont .cols.col-2,
+.cont .cols.col-3,
+.cont .cols.col-4,
+.cont .cols.col-5,
+.cont .cols.col-6,
+.cont .cols.col-7,
+.cont .cols.col-8,
+.cont .cols.col-9,
+.cont .cols.col-10,
+.cont .cols.col-11,
+.cont .cols.col-12 {width: 50%; display: block;}
+}
 
-@media screen and (min-width: 930px){
+/*DESKTOP*/
+@media screen and (min-width: 769px){
     
 .cont .cols.col-1  {width: 8.33%;}
 .cont .cols.col-2  {width: 16.66%;}
@@ -66,7 +84,7 @@
     background: #1a0099;
     color: #3399cc;
     font-size: 1.2em;
-     border-radius: 5px;
+    border-radius: 5px;
 }
 
 button{
@@ -76,6 +94,8 @@ button{
     border-radius: 10px;
     font-size: 1.2em;
     padding: 2px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 input{
@@ -86,6 +106,15 @@ input{
     padding-top: 6px;
     border-radius: 5px;
     font-family: cursive;
+}
+
+.search{
+    margin-left: 20px;
+    float: right;
+}
+
+.social{
+    float: right;
 }
 
 a {
@@ -102,35 +131,12 @@ li { list-style-type: none;}
     position: relative;
 }
 
-@media screen and (max-width: 650px){
-    #header{ height: 150px; }
-}
-
-#header h1 a {
-    color: #fff;
-    text-decoration: none;
-}
-
-#header h2 {
-    color: #eee;
-    font-size: 19px;
-    font-weight: 100;
-    padding: 0 0 0 11px;
-    letter-spacing: -1px;
-    line-height: 12px;
-}
-
-.logo { float: left; }
-
-.search {
-    margin-left: 0 auto;
-    float: right;
-    color: black;
-    padding: 15px;
+.logo { 
+    float: left;
+    margin: 10px;
 }
 
 #wrap {
-    padding-left: -150px;
     padding: 10px 10px 3px 10px;
     width: 90%;
     margin: 20px auto;
