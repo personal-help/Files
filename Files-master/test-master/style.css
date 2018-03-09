@@ -1,0 +1,209 @@
+* {
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* body {
+    font: 1.1em cursive;
+    line-height: 1.8em;
+    background: #000099 url(img/indtextb.jpg) repeat;
+    color: #000099;
+}
+
+.cont{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.cont .cols{
+    float: left;
+    margin: 0 0 1em;
+    padding: 0 1em;
+    text-align: center;
+}
+
+/*PHONE*/
+.row{ clear: both; }
+
+.cont .cols.col-1,
+.cont .cols.col-2,
+.cont .cols.col-3,
+.cont .cols.col-4,
+.cont .cols.col-5,
+.cont .cols.col-6,
+.cont .cols.col-7,
+.cont .cols.col-8,
+.cont .cols.col-9,
+.cont .cols.col-10,
+.cont .cols.col-11,
+.cont .cols.col-12 {width: 100%; display: block;}
+
+/*TABLET*/
+@media screen and (min-width: 500px){
+    
+.cont .cols.col-1,
+.cont .cols.col-2,
+.cont .cols.col-3,
+.cont .cols.col-4,
+.cont .cols.col-5,
+.cont .cols.col-6,
+.cont .cols.col-7,
+.cont .cols.col-8,
+.cont .cols.col-9,
+.cont .cols.col-10,
+.cont .cols.col-11,
+.cont .cols.col-12 {width: 50%; display: block;}
+}
+
+/*DESKTOP*/
+@media screen and (min-width: 769px){
+    
+.cont .cols.col-1  {width: 8.33%;}
+.cont .cols.col-2  {width: 16.66%;}
+.cont .cols.col-3  {width: 25%;}
+.cont .cols.col-4  {width: 33.33%;}
+.cont .cols.col-5  {width: 41.66%;}
+.cont .cols.col-6  {width: 50%;}
+.cont .cols.col-7  {width: 58.33%;}
+.cont .cols.col-8  {width: 66.66%;}
+.cont .cols.col-9  {width: 75%;}
+.cont .cols.col-10 {width: 83.33%;}
+.cont .cols.col-11 {width: 91.66%;}
+.cont .cols.col-12 {width: 100%;}
+}
+
+.menu{
+    background: #1a0099;
+    color: #3399cc;
+    font-size: 1.2em; 
+    border: 1px solid #3399cc;
+    border-radius: 25px;
+}
+
+.log{
+    background: #1a0099;
+    color: #3399cc;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+button{
+    background: #1a0099;
+    color: #3399cc;
+    border: 2px solid #1a0099;
+    border-radius: 10px;
+    font-size: 1.2em;
+    padding: 2px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+input{
+    background-color :azure; 
+    color: black;
+    border: 2px solid #1a0099;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 5px;
+    font-family: cursive;
+}
+
+.search{
+    margin-left: 20px;
+    float: right;
+}
+
+.social{
+    float: right;
+}
+
+a {
+    color: #3399cc;
+    text-decoration: none;
+}
+
+li { list-style-type: none;}
+
+#header {
+    background: #000099 url(img/trucks/header.png);
+    height: 180px;
+    width: 100%;
+    position: relative;
+    border-radius: 20px;
+}
+
+.logo { 
+    float: left;
+    margin: 10px;
+}
+
+#wrap {
+    padding: 10px 10px 3px 10px;
+    width: 90%;
+    margin: 20px auto;
+    background: #3399CC;
+}
+
+.articles { float: right; clear: both; }
+
+
+#right {
+    margin-bottom: 10px;
+    float: right;   
+    width: 100%;
+    padding: 0 10px 10px 10px;
+    margin-top: 10px;
+}
+
+.product {
+    margin-bottom: 20px;
+    background: #CCCCCC;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    clear: both;
+}
+
+.product p {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+.product h2 {
+    padding-left: 10px;
+}
+.product img{
+    margin-right: 10px;
+}
+
+.information{
+    color: #3399CC;
+    text-decoration: underline;
+}
+
+.clearfix {
+    float: left;
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#footer {
+    font-size: 11px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding: 10px 5px;
+}
+
+.map{
+    box-sizing: border-box;
+    display: block;
+}
