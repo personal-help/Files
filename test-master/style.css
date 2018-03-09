@@ -41,7 +41,7 @@
 .cont .cols.col-12 {width: 100%; display: block;}
 
 /*TABLET*/
-@media screen and (min-width: 600px){
+@media screen and (min-width: 500px){
     
 .cont .cols.col-1,
 .cont .cols.col-2,
@@ -78,6 +78,8 @@
     background: #1a0099;
     color: #3399cc;
     font-size: 1.2em; 
+    border: 1px solid #3399cc;
+    border-radius: 25px;
 }
 
 .log{
@@ -118,7 +120,7 @@ input{
 }
 
 a {
-    color: #000099;
+    color: #3399cc;
     text-decoration: none;
 }
 
@@ -129,6 +131,7 @@ li { list-style-type: none;}
     height: 180px;
     width: 100%;
     position: relative;
+    border-radius: 20px;
 }
 
 .logo { 
